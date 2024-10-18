@@ -16,6 +16,16 @@
     <h5>naslov 5</h5>
     <h6>naslov 6</h6>
     <!-- paragrafi -->
+
+    <h3>Zadaće:</h3>
+    <ol>
+        <li><a href="zadace/zadaca1.html">Zadaća</a></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
     <p>Ovo je prvi sat iz <br> Web programiranja.</p>
     <P>Sljedeći put će biti drugi.</P>
 
@@ -75,12 +85,221 @@
            <a href="linkovi/link1.html">Link 1</a>
            <a href="linkovi/link2.html">Link 2</a>
 
-           <h1>Zsace iz web programiranja</h1>
-           <dl><a href="zadace/zadaca1.html">zadaca 1</a></dl>
-           <dl>zadaca 2</dl>
-           <dl>zadaca 3</dl>
-           <dl>zadaca 4</dl>
-           <dl>zadaca 5</dl>
-           <dl>zadaca 6</dl>
+
+           <!-- Tablice -->
+            <h3>Tablice u HTML-u</h3>
+            <table border="1">
+                <tr>
+                    <th>Ponedjeljak</th>
+                    <th>Utorak</th>
+                    <th>Srijeda</th>
+                </tr>
+                <tr>
+                    <td>Hrvatski</td>
+                    <td>Metodika</td>
+                    <td>Matematika</td>
+                </tr>
+                <tr>
+                    <td>Hrvatski</td>
+                    <td>Metodika</td>
+                    <td>Matematika</td>
+                </tr>
+            </table>
+
+        <br>
+
+        <table border="1">
+            <tr>
+                <th colspan="2">NAME</th>
+                <th>LOREM</th>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table border="1">
+            <tr>
+                <td rowspan="3">APRIL</td>
+                <td>Lorem</td>
+                <td>Lorem</td>
+
+            </tr>
+            <tr>
+                <td>Lorem</td>
+                <td>Lorem</td>
+
+            </tr>
+            <tr>
+                <td>Lorem</td>
+                <td>Lorem</td>
+
+            </tr>
+            <tr>
+                <td>Lorem</td>
+                <td>Lorem</td>
+                <td>Lorem</td>
+
+            </tr>
+            <tr>
+                <td>Lorem</td>
+                <td>Lorem</td>
+                <td>Lorem</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table border="1">
+            <tr>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+                <th>Type</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Bill Gates</td>
+                <td>Founder Microsoft</td>
+                <td>$1000</td>
+                <td rowspan="4">Company founder</td>
+
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Steve Jobs</td>
+                <td>Founder Apple</td>
+                <td>$1200</td>
+
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Larry Page</td>
+                <td>Founder Google</td>
+                <td>$1100</td>
+
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Mark Zuckeberg</td>
+                <td>Founder Facebook</td>
+                <td>$1300</td>
+
+            </tr>
+
+        </table>
+
+        <br>
+
+        <!-- HTML forme -->
+         <h3>HTML forme</h3>
+         <form action="" method="get">
+            <label for="name">Unesi svoje ime:</label>
+            <input type="text" id="name" name="name"> <br>
+            <label for="Prezime">Unesi prezime:</label>
+            <input type="text" name="Prezime" id="Prezime" placeholder="Unesi prezime..." maxlength="20" size="20"> <br>
+            <label>Unesi password</label>
+            <input type="password" maxlength="20" > <br>
+            <label>Izaberi boju:</label>
+            <input type="color"> <br>
+            <label>Unesi datum:</label>
+            <input type="date"> <br>
+            <label>Unesi email:</label>
+            <input type="email" required> <br>
+            <label>Unesi telefon:</label>
+            <input type="tel"> <br>
+            <label>Izaberi najbolji kolegij:</label> <br>
+            <input type="radio" name="kolegij" id="Matematika" value="Matematika">
+            <label for="Matematika">Matematika</label> <br>
+            <input type="radio" name="kolegij" id="Hrvatski" value="Hrvatski">
+            <label for="Matematika">Hrvatski</label> <br>
+            <input type="radio" name="kolegij" id="Metodika" value="Metodika">
+            <label for="Metodika">Metodika</label> <br>
+            <label>Najdraže boje:</label> <br>
+            <input type="checkbox" name="boja1" id="boja1">
+            <label for="boja1">Crvena</label> <br>
+            <input type="checkbox" name="boja2" id="boja2">
+            <label for="boja2">Roza</label> <br>
+            <input type="checkbox" name="boja3" id="boja3">
+            <label for="boja3">Zelena</label> <br>
+            <input type="checkbox" name="boja4" id="boja4">
+            <label for="boja4">Plava</label> <br>
+            <br><br><br><br><br>
+            <h3>Registration form</h3>
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="name"> <br>
+            <label for="last name">Last Name:</label>
+            <input type="text" id="last name" name=" last name"> <br>
+            <label for="nick name">Nick Name:</label>
+            <input type="text" id="nick name" name="nick name"> <br>
+            <label>email:</label>
+            <input type="email" required> <br>
+            <label>Password</label>
+            <input type="password"> <br>
+            <label>Date of Birth:</label>
+            <input type="date of birth"> <br>
+            <label>Gender:</label> <br>
+            <input type="radio" name="Gender" id="Male" value="Male">
+            <label for="Male">Male</label> <br>
+            <input type="radio" name="Gender" id="Female" value="Female">
+            <label for="Female">Female</label> <br>
+            <input type="radio" name="Gender" id="Others" value="Others">
+            <label for="Others">Others</label> <br>
+            <label>Mobile:</label>
+            <input type="tel"> <br>
+            <label>Address:</label>
+            <input type="adress">
+
+
+            <input type="submit" value="Pošalji">
+
+
+
+         </form>
+
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/UmxNNbeyJvY?si=-xnizKVLNut-vGqE" 
+         title="YouTube video player" frameborder="0" 
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+         allowfullscreen>
+        </iframe>
+
+        <h3>Audio i video elementi u HTML-u</h3>
+        <video width="320" height="240" controls>
+            <source src="assets/video git.mp4">
+          Your browser does not support the video tag.
+          </video>
+          <br>
+
+          <audio controls>
+        <source src="assets/horse (1).ogv">
+          Your browser does not support the audio element.
+          </audio>
+
+
+
+
+
+
+           
 </body>
 </html>
