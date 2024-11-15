@@ -1,0 +1,65 @@
+/* UNIVERZALNI SELEKTOR */
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+h3{
+    color: blueviolet;
+}
+
+/* KLASE */
+.naslov{
+    color: aqua;
+}
+
+/* ID */
+
+#naslovi1{
+    color: darkolivegreen;
+}
+
+/* ELEMENT SELEKTOR */
+
+h3{
+    color: blue;
+    background-color: rgb(240, 193, 231);
+
+}
+
+h4{
+    color: #f5b5e9;
+}
+
+p{
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+div{
+    width: 400px;
+    height: 400px;
+    background-color: #f5b5e9;
+    text-align: center;
+
+}
+
+
+/* SELEKTOR KLASE */
+.naslov{
+    color: brown;
+}
+
+.rgb{
+    color: rgb(54, 62, 109);
+
+}
+
+.amet{
+    background-color: rgb(204, 144, 201);
+}
+
+/* SELEKTOR ID */
+#naslovi1{
+    color: cyan;
+}
+
